@@ -1,9 +1,9 @@
 # server/routers/user.py
 from fastapi import APIRouter, Path
-from server.models.user import UserResponse
-from server.models.car import CarResponse
+from models.user import UserResponse
+from models.car import CarResponse
 from typing import List
-from server.config.database import users_collection
+from config.database import users_collection
 from bson import ObjectId
 
 

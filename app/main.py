@@ -127,9 +127,9 @@
 
 # server/app/main.py
 from fastapi import FastAPI
-from server.routers.auth import router as auth_router
-from server.routers.users import router as user_router
-from server.routers.cars import router as car_router
+from routers.auth import router as auth_router
+from routers.users import router as user_router
+from routers.cars import router as car_router
 
 app = FastAPI()
 

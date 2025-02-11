@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Body, Path
-from server.models.car import  Car, CarResponse
+from models.car import  Car, CarResponse
 from typing import Optional
 
 router = APIRouter()
